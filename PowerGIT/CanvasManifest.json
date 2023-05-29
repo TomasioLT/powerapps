@@ -38,7 +38,7 @@
       "enableexcelonlinebusinessv2connector": true,
       "enableexperimentaldataverseoffline": true,
       "enableideaspanel": true,
-      "enablelegacybarcodescanner": true,
+      "enablelegacybarcodescanner": false,
       "enableonstart": true,
       "enableonstartnavigate": true,
       "enablepcfmoderndatasets": true,
@@ -93,7 +93,7 @@
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
       "webbarcodescanner": true,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
@@ -112,7 +112,7 @@
     "Id": "dcc1a26f-6738-4328-bbe7-4a96fe933cf9",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "responsive",
     "OriginatingVersion": "1.331",
     "ParserErrorCount": 0
