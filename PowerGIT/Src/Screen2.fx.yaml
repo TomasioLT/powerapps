@@ -54,7 +54,6 @@
             ZIndex: =2
 
             "Gallery3 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
-                AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
                 Height: =Parent.Height
                 Items: =colTabs
@@ -66,7 +65,15 @@
                 Width: =Parent.Width
                 ZIndex: =2
 
+                Rectangle1 As rectangle:
+                    Height: =3
+                    OnSelect: =Select(Parent)
+                    Width: =Parent.TemplateWidth
+                    Y: =97
+                    ZIndex: =5
+
                 Title4 As label:
+                    Align: =Align.Center
                     FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                     Height: =39
                     OnSelect: =Select(Parent)
@@ -75,27 +82,18 @@
                     PaddingRight: =0
                     PaddingTop: =0
                     Text: =ThisItem.Name
-                    Width: =145
-                    X: =32
-                    Y: =13
-                    ZIndex: =2
+                    Width: =Parent.TemplateWidth
+                    Y: =Icon2.Height+Icon2.Y
+                    ZIndex: =6
 
                 "Icon2 As icon.'3DPrinting'":
                     Height: =39
                     Icon: =ThisItem.Logo
                     OnSelect: =Select(Parent)
                     Width: =42
-                    X: =189
-                    Y: =13
-                    ZIndex: =4
-
-                Rectangle1 As rectangle:
-                    Height: =3
-                    OnSelect: =Select(Parent)
-                    Width: =202
-                    X: =29
-                    Y: =58
-                    ZIndex: =5
+                    X: =(Parent.TemplateWidth-Self.Width)/2
+                    Y: =10
+                    ZIndex: =7
 
         FooterContainer1 As groupContainer.horizontalAutoLayoutContainer:
             FillPortions: =0
@@ -104,11 +102,4 @@
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
-
-    Label1 As label:
-        Color: =RGBA(255, 255, 255, 1)
-        Text: =CountRows(colTabs)
-        X: =124
-        Y: =20
-        ZIndex: =2
 

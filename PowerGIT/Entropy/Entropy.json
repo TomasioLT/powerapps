@@ -13,9 +13,8 @@
     "galleryTemplate3": 16,
     "HeaderContainer1": 10,
     "Host": 3,
-    "Icon2": 18,
+    "Icon2": 37,
     "Image2": 12,
-    "Label1": 23,
     "Label2": 11,
     "Label2_1": 13,
     "Rectangle1": 24,
@@ -24,12 +23,12 @@
     "ScreenContainer1": 9,
     "TabsContainer": 14,
     "Test_7F478737223C4B69": 2,
-    "Title4": 17
+    "Title4": 36
   },
   "DoesTestStepsMetadataExist": false,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/05/2023 07:37:54",
+  "HeaderLastSavedDateTimeUTC": "06/05/2023 08:15:54",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -67,7 +66,6 @@
     "Host": {},
     "Icon2": {},
     "Image2": {},
-    "Label1": {},
     "Label2": {},
     "Label2_1": {},
     "Rectangle1": {},
@@ -92,9 +90,8 @@
     "galleryTemplate3": 10,
     "HeaderContainer1": 4,
     "Host": 0,
-    "Icon2": 12,
+    "Icon2": 11,
     "Image2": 6,
-    "Label1": 15,
     "Label2": 5,
     "Label2_1": 7,
     "Rectangle1": 13,
@@ -103,7 +100,7 @@
     "ScreenContainer1": 3,
     "TabsContainer": 8,
     "Test_7F478737223C4B69": 0,
-    "Title4": 11
+    "Title4": 12
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
@@ -115,10 +112,11 @@
     "ControlCount": {
       "gallery": 1,
       "galleryTemplate": 1,
-      "groupContainer": 7,
-      "icon": 1,
+      "groupContainer": 10,
+      "icon": 6,
       "image": 1,
-      "label": 4,
+      "label": 9,
+      "rectangle": 1,
       "screen": 2,
       "TestCase": 1,
       "TestSuite": 1
