@@ -2,9 +2,29 @@ App As appinfo:
     BackEnabled: =false
     OnStart: |-
         =ClearCollect(
-            colNavbar,
-            {}
+            colTabs,
+            {
+                ID: 1,
+                Name:"All Tickets",
+                Logo: Icon.Tag
+            },
+            {
+                ID: 2,
+                Name:"My Tickets",
+                Logo: Icon.LogJournal
+            },
+            {
+                ID: 3,
+                Name:"Assigned to Me",
+                Logo: Icon.Clock
+            },
+            {
+                ID: 4,
+                Name:"Information",
+                Logo: Icon.Information
+            }
         )
+    SizeBreakpoints: =[600, 900, 1200,1400]
 
     Host As hostControl.DefaultHostControlVariant:
         OnCancel: =false

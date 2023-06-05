@@ -1,24 +1,23 @@
 Screen1 As screen:
 
-    main As groupContainer.horizontalAutoLayoutContainer:
+    Container1 As groupContainer.verticalAutoLayoutContainer:
         Height: =768
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
         LayoutMode: =LayoutMode.Auto
         Width: =1366
         ZIndex: =1
 
-        navbar As groupContainer.verticalAutoLayoutContainer:
-            FillPortions: =0
-            LayoutDirection: =LayoutDirection.Vertical
+        Container6 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(0, 0, 0, 0.4)
             LayoutMinHeight: =100
             LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
-            Width: =250
             ZIndex: =1
 
-        body As groupContainer.verticalAutoLayoutContainer:
-            LayoutDirection: =LayoutDirection.Vertical
+        Container7 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(0, 0, 255, 0.5)
             LayoutMinHeight: =100
             LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
             ZIndex: =2
 

@@ -50,7 +50,7 @@
         {
           "Category": "ConstantData",
           "PropertyName": "SizeBreakpoints",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         }
       ],
       "StyleName": "",
