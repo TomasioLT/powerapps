@@ -10,7 +10,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -22,7 +22,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -34,7 +34,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -46,7 +46,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -58,7 +58,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -70,7 +70,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -82,7 +82,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -94,7 +94,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -106,7 +106,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -118,7 +118,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -130,7 +130,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -142,7 +142,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -154,7 +154,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -166,7 +166,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -178,7 +178,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -190,7 +190,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -202,7 +202,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -214,7 +214,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -226,7 +226,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -238,7 +238,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -250,7 +250,19 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 5
+                "index": 3
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 3
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -263,86 +275,6 @@
         }
       ],
       "results": [
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainSectionContainer1.Gallery3.TemplateSize"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainSectionContainer1.Gallery3.TemplateSize",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 6,
-                  "snippet": {
-                    "text": "colTabs"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TemplateSize",
-                "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainSectionContainer1.Gallery3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Count"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrNeedTableCol-Func",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainSectionContainer1.Gallery3.TemplateSize"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainSectionContainer1.Gallery3.TemplateSize",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Count(colTabs)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TemplateSize",
-                "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainSectionContainer1.Gallery3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Count"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
         {
           "locations": [
             {
@@ -370,7 +302,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -399,26 +331,26 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainSectionContainer1.Gallery3.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.ScreenContainer1.TabsContainer.Gallery3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainSectionContainer1.Gallery3.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.ScreenContainer1.TabsContainer.Gallery3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainSectionContainer1.Gallery3"
+                "type": "Screen2.ScreenContainer1.TabsContainer.Gallery3"
               }
             }
           ],
@@ -429,26 +361,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainSectionContainer1.Gallery3.TabIndex"
+                  "fullyQualifiedName": "Screen2.ScreenContainer1.TabsContainer.Gallery3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainSectionContainer1.Gallery3.TabIndex",
+                  "fullyQualifiedName": "Screen2.ScreenContainer1.TabsContainer.Gallery3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainSectionContainer1.Gallery3"
+                "type": "Screen2.ScreenContainer1.TabsContainer.Gallery3"
               }
             }
           ],
@@ -459,7 +391,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 2
         }
       ],
       "tool": {
@@ -467,34 +399,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-ErrNeedTableCol-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The first argument of '{0}' should be a one-column table."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "acc-ReadableScreenNameNeeded",
               "messageStrings": {
@@ -564,7 +468,7 @@
               }
             }
           ],
-          "version": "1.331"
+          "version": "1.332"
         }
       }
     }
